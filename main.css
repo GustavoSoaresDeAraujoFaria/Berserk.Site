@@ -1,0 +1,187 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    background-color:black;
+
+}
+
+Header,nav ul li{
+    background-color: rgb(5, 4, 4);
+    color: rgb(236, 0, 0);
+    font-weight: 900;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 8px, 0;
+    padding-right: 8px;
+    font-size:xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: auto; 
+    
+}
+
+h1{
+    margin-left: 20px;
+}
+
+#carlos{
+    margin-right: 40px;
+    font-size: 45px;
+    align-items: center;
+    margin-top: auto;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 40px;
+    margin-top: auto;
+    
+    
+    
+}
+
+#espada{
+    height: 120px;
+    display: inline; 
+    
+}
+
+#Lore h2{
+    font-family: 'Ceviche One', cursive;
+    color: rgb(255, 0, 0);
+    font-size: xx-large;
+    font-weight: 400;
+    background-color: black;
+    justify-content: center;
+    margin-left: 48px;
+    font-size: 80px;
+    
+    
+}   
+
+#Lore, #Watch{
+    font-family: 'Germania One', cursive;
+    background-color: black;
+    color: red;
+}
+
+#Lore h2 img{
+    height: 135px;
+}
+
+#Watch{
+    height: 135px;
+    font-size: 40px;
+    margin-left: 8px;
+    height: 625px;
+}
+
+#links{
+    font-family: 'Ceviche One', cursive;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-right: 700px;
+}
+
+#explication{
+    color:  red;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    
+}
+
+#berserk{
+    background-color: rgb(5, 4, 4);
+}
+
+#topicos, #a, #b{
+    background-color: rgb(5, 4, 4);
+}
+
+ul, li, #links{
+    text-decoration: none;
+    display:flex;
+    margin:56px;
+    margin-top: 8px;
+}
+
+nav ul li a{
+    color: red;
+    font-size: 49px;
+    margin-top: auto;
+    margin-top: auto;
+    
+}
+
+#links{
+    flex: content;
+    align-items: end;
+    justify-content: space-between
+}
+
+#final{
+    font-family: 'Ceviche One', cursive;
+    font-weight: 400;
+    background-color: black;
+    margin-left: auto;
+    font-size: 40px;
+    font-family: 'Ceviche One', cursive;
+    color: rgb(255, 0, 0);
+    
+}
+
+#formulary{
+    color:red;
+    font-family: 'Germania One', cursive;
+    margin-left: 10px;
+    
+}
+
+#name{
+    text-decoration: none;
+    color:red;
+    background-color:rgb(0, 0, 0);
+    font-family: 'Saira Condensed', sans-serif;
+    border: 0px;
+    
+    
+}
+
+#name:focus{
+    border-bottom: 2px solid red;
+    display: block;
+}
+
+#obs{
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: black;
+    color: red;
+    display: block;
+    resize: none;
+    border-color: red
+}
+
+button, #reset{
+    display: flex;
+    justify-content: space-between;
+    color:red;
+    background-color:rgb(0, 0, 0);
+    border-color: red;
+    cursor: pointer;
+    margin: 12px;
+    font-family: 'Saira Condensed', sans-serif;
+    align-items: end;
+}
+
+.container{
+    
+    display:flex;
+}
